@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+#Gallery {
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url(gallery.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pokeBox {
+	width: 10%;
+	margin-left: 12%;
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(pokebox.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	opacity: 0.90;
+}
+
+.pokeImg {
+	width: 80%;
+}
